@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import logo from './assets/logo.png'
 
 const App = () => {
 
@@ -17,7 +18,7 @@ const App = () => {
             <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
               <img
                 class="h-10 w-auto"
-                src="images/logo.png"
+                src={logo}
                 alt="logo"
               />
               <span class="hidden md:block text-white text-2xl font-bold ml-2"
