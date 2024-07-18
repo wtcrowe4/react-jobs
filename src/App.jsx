@@ -1,17 +1,18 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import HomeCards from './components/HomeCards'
 
 const App = () => {
 
   return (
     <>
       <Navbar />
-      <Hero />
-
+      <Hero title='Become a React Developer' subtitle='Find the React job that fits your skill set.' />
+      <HomeCards />
     
     {/* <!-- Developers and Employers --> */}
-    <section class="py-4">
+    {/* <section class="py-4">
       <div class="container-xl lg:container m-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
           <div class="bg-gray-100 p-6 rounded-lg shadow-md">
@@ -40,7 +41,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* <!-- Browse Jobs --> */}
     <section class="bg-blue-50 px-4 py-10">
